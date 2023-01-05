@@ -7,9 +7,9 @@ This is a really simple repo meant for testing the impacting of server component
 * Open Devtools
 * Go to Network tab
 * Filter by `_next`
-* Check the amount of JS loaded (probably around 227Kb)
+* Check the amount of JS loaded (probably around 284Kb)
 * Open `app/test-server-components/HugeComponent.tsx` and remove `"use client"`
-* Repeat the entire proccess and check the JS size again (probably around 284Kb)
+* Repeat the entire proccess and check the JS size again (probably around 227Kb)
 
 ***fyi***: the chunk which changes begings with `page-`
 
